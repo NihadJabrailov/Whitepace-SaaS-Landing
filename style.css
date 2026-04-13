@@ -1,4 +1,5 @@
 * {
+    /* Reset */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,6 +7,7 @@
 
 
 .inter {
+    /*Google Fonts*/
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -13,6 +15,7 @@
 }
 
 .dm-sans {
+    /*Google Fonts*/
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -86,16 +89,10 @@
 
 .login:hover {
     background-color: #ffdc4d;
-    border: none;
-    font-size: clamp(13px, 0.94vw, 18px);
-    border-radius: 8px;
-    cursor: pointer;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    white-space: nowrap;
 }
 
 .blue_button {
+    /*The blue button used for homework and other sections*/
     width: clamp(160px, 14.43vw, 277px);
     height: 60px;
     background-color: #4F9CF9;
@@ -111,15 +108,8 @@
 }
 
 .blue_button:hover {
+    /*Hover zamanı rəng dəyişir*/
     background-color: #043873;
-    border: none;
-    color: #fff;
-    font-size: clamp(13px, 0.94vw, 18px);
-    border-radius: 8px;
-    cursor: pointer;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    white-space: nowrap;
 }
 
 .body {
@@ -151,11 +141,13 @@
 }
 
 .body__p1 {
+    /*The big text style used throughout the entire page*/
     font-size: 64px;
     color: #fff;
 }
 
 .body__p2 {
+    /*The small text style used throughout the entire page*/
     font-size: clamp(18px, 20px, 30px);
     color: #fff;
     font-weight: 400;
@@ -167,6 +159,7 @@
     height: 549px;
 }
 
+/*------------------Home Work Section--------------------------*/
 .project__management {
     max-width: 100%;
     height: 700px;
@@ -176,12 +169,12 @@
     justify-content: center;
 }
 
+/*--------------------------------------------------------*/
 .work__together {
     max-width: 100%;
     height: 661px;
     gap: 100px;
     display: flex;
-    justify-content: center;
     justify-content: center;
 }
 
@@ -193,9 +186,114 @@
 .work__together__word {
     max-width: 670px;
     height: 661px;
-    gap: 60px;
+    gap: 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+
+.footer {
+    background-color: #043873;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer__1 {
+    max-width: 100%;
+    height: 705px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 140px 220px 32px 200px;
+    gap: 200px;
+}
+
+.try__whitepace {
+    max-width: 608px;
+    height: 533px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.footer__2 {
+    width: 100%;
+    max-width: 1480px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 100px 5% 50px 5%;
+    gap: 50px;
+}
+
+.footer__col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.footer__col--large {
+    flex: 1.5;
+}
+
+.footer__col_title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.footer__col_p,
+.footer__col_link {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer__col_p {
+    line-height: 1.5;
+}
+
+.footer__col_link {
+    text-decoration: none;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.footer__col_link:hover {
+    color: #FFE492;
+}
+
+.footer__bottom {
+    width: 100%;
+    max-width: 1480px;
+    padding: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__bottom_links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 20px;
 }
