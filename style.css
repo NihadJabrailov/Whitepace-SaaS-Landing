@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.dm-sans {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    width: 100%;
+    height: 92px;
+    background-color: #043873;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo__and__word {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.logo__image {
+    width: 37px;
+}
+
+.logo__word {
+    font-size: clamp(18px, 1.46vw, 28px);
+    color: #fff;
+    white-space: nowrap;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(16px, 3.7vw, 71px);
+    flex: 1;
+    padding: 0 2%;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: clamp(13px, 0.94vw, 18px);
+    white-space: nowrap;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.login {
+    width: clamp(80px, 6.56vw, 126px);
+    height: 60px;
+    background-color: #FFE492;
+    border: none;
+    font-size: clamp(13px, 0.94vw, 18px);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.signup {
+    width: clamp(160px, 14.43vw, 277px);
+    height: 60px;
+    background-color: #4F9CF9;
+    border: none;
+    color: #fff;
+    font-size: clamp(13px, 0.94vw, 18px);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    white-space: nowrap;
+}
