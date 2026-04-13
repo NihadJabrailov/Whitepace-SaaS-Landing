@@ -81,12 +81,37 @@
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
     white-space: nowrap;
+    transition: 0.3s ease-in-out;
 }
 
-.signup {
+.login:hover {
+    background-color: #ffdc4d;
+    border: none;
+    font-size: clamp(13px, 0.94vw, 18px);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.blue_button {
     width: clamp(160px, 14.43vw, 277px);
     height: 60px;
     background-color: #4F9CF9;
+    border: none;
+    color: #fff;
+    font-size: clamp(13px, 0.94vw, 18px);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: 0.3s ease-in-out;
+}
+
+.blue_button:hover {
+    background-color: #043873;
     border: none;
     color: #fff;
     font-size: clamp(13px, 0.94vw, 18px);
@@ -142,11 +167,35 @@
     height: 549px;
 }
 
-.body__2 {
+.project__management {
     max-width: 100%;
     height: 700px;
     padding: 0 5%;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.work__together {
+    max-width: 100%;
+    height: 661px;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
+.work__together__img {
+    max-width: 710px;
+    height: 661px;
+}
+
+.work__together__word {
+    max-width: 670px;
+    height: 661px;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
 }
