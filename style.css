@@ -113,7 +113,8 @@
 
 /*Get more done və Use as Extension səhifəsinin class-ı.*/
 .body,
-.use-as-extension {
+.use-as-extension,
+.customise {
     max-width: 100%;
     height: 650px;
     background-color: #043873;
@@ -131,6 +132,7 @@
     justify-content: space-between;
 }
 
+/*Project managment və Use as Extension səhifəsinin yazıları və button-u əhatə edən class-ı.*/
 .body__word,
 .use__extension__word {
     max-width: 656px;
@@ -142,19 +144,20 @@
     gap: 60px;
 }
 
+/*Bütün səhifədə istifadə olunan böyük sriflə yazılmış yazıların class-ı*/
 .body__p1 {
-    /*The big text style used throughout the entire page*/
     font-size: 64px;
     color: #fff;
 }
 
+/*Bütün səhifədə istifadə olunan kiçik sriflə yazılmış yazıların class-ı*/
 .body__p2 {
-    /*The small text style used throughout the entire page*/
     font-size: clamp(18px, 20px, 30px);
     color: #fff;
     font-weight: 400;
 }
 
+/*Project managment və Use as Extension səhifəsinin image class-ı.*/
 .body__img,
 .use__extension__img {
     background-color: #C4DEFD;
@@ -203,7 +206,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
 }
 
 .footer__1 {
@@ -302,9 +304,32 @@
     gap: 20px;
 }
 
-/*Use as Extension səhifəsinin section class-ı. Qalan dizaynlar body class-i ilə eynidir*/
-.use-as-extension {
+/*Use as Extension və customise səhifəsinin section class-ı. Qalan dizaynlar body class-i ilə eynidir*/
+.use-as-extension,
+.customise {
     height: 759px;
     padding: 140px 220px;
     gap: 98px;
+}
+
+/*Customise hissəsinin özünə aid xüsusiyyətləri, oxşarı body və use-as-extension class-i ilə eynidir*/
+.customise {
+    height: 812.09px;
+    background-color: #fff;
+}
+
+.customise__img {
+    background-color: #C4DEFD;
+    width: 714px;
+    height: 532.09px;
+}
+
+.customise__word {
+    max-width: 669px;
+    height: 411px;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
