@@ -436,3 +436,127 @@
 .card__2 p {
     color: #fff;
 }
+
+.solar-system {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orbit {
+    position: absolute;
+    border: 2px dashed #b1c9f0;
+    border-radius: 50%;
+}
+
+.orbit-inner {
+    width: 260px;
+    height: 260px;
+}
+
+.orbit-outer {
+    width: 440px;
+    height: 440px;
+}
+
+.dot {
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dot.lg {
+    width: 44px;
+    height: 44px;
+}
+
+.dot.md {
+    width: 38px;
+    height: 38px;
+}
+
+.bg-blue {
+    background-color: #409cff;
+}
+
+.bg-green {
+    background-color: #00d084;
+}
+
+.bg-orange {
+    background-color: #ffb84d;
+}
+
+.bg-red {
+    background-color: #ff5e5e;
+}
+
+.bg-yellow {
+    background-color: #ffd74d;
+}
+
+.inner-top {
+    top: 0;
+    left: 50%;
+}
+
+.inner-bottom {
+    top: 100%;
+    left: 50%;
+}
+
+.inner-left {
+    top: 50%;
+    left: 0;
+}
+
+.inner-right {
+    top: 50%;
+    left: 100%;
+}
+
+.outer-left {
+    top: 50%;
+    left: 0;
+}
+
+.outer-top-left {
+    top: 14.6%;
+    left: 14.6%;
+}
+
+
+.outer-top-right {
+    top: 14.6%;
+    left: 85.4%;
+}
+
+.outer-bottom-right {
+    top: 75%;
+    left: 93.3%;
+}
+
+.outer-bottom-left {
+    top: 93.3%;
+    left: 25%;
+}
+
+.center-logo {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.center-logo svg {
+    width: 40px;
+    height: 40px;
+}
