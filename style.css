@@ -372,7 +372,8 @@
 .card__2,
 .card__3 {
     width: 472.33px;
-    height: 634px;
+    min-height: 634px;
+    height: auto;
     border-radius: 10px;
     padding: 40px 44px;
     border: 1px solid #ffe492;
